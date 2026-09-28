@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+# Accident guard only: review tracked files and history before publication.
+.env
+.env.*
+!.env.example
+corpus/
+questions/
+keys/
+runs/
+logs/
+private/
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
